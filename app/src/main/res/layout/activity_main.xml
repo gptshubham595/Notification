@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="7dp"
+    android:layout_height="wrap_content">
+<androidx.appcompat.widget.AppCompatEditText
+    android:layout_width="match_parent"
+    android:hint="title"
+    android:layout_margin="7dp"
+    android:id="@+id/title"
+    android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:hint="Msg"
+        android:layout_margin="7dp"
+        android:id="@+id/msg"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Send on CHannel 1"
+        android:id="@+id/chn1"
+        android:layout_margin="7dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Send on CHannel 2"
+        android:id="@+id/chn2"
+        android:layout_margin="7dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Send on CHannel 3"
+        android:id="@+id/chn3"
+        android:layout_margin="7dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Send on CHannel 4"
+        android:id="@+id/chn4"
+        android:layout_margin="7dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Send on CHannel 5"
+        android:id="@+id/chn5"
+        android:layout_margin="7dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+</RelativeLayout>
